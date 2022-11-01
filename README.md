@@ -55,10 +55,17 @@ This Podman pull command will cache images locally from remote registries. Let's
 ```sh
 podman images 
 ```
-Now let's start to run the container as a background process and later we will inspect it while it is running in the background. To start a container as a background process we will issue the following command: 
+
+2.2 Now let's start to run the container as a background process and later we will inspect it while it is running in the background. To start a container as a background process we will issue the following command: 
 
 ```sh
 podman run -itd --name myos ubuntu bash
 ```
+
+List all containers running in the system (use podmans help)?
+
+We can refer to the container using CONAINER ID or container name in our case myos.
+Enter into the one of the running container in your OS, for example conatiner myos, and run a shell command `ls` ? Consult podman help.
+
 
 
