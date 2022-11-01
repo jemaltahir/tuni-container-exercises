@@ -33,3 +33,10 @@ Get familiarized yourself with logs in the terminal after running the following 
 
 `podman run hello`
 
+1.4 Extra (Modify Podman container search list registries).
+
+Add "registry.fedoraproject.org" to the "unqualified-search-registries" search list erntries.
+N.B Careful when adding registries only add registries that are trusted registries such as official images.
+
+
+
