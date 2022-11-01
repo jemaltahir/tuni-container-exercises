@@ -38,5 +38,6 @@ Get familiarized yourself with logs in the terminal after running the following 
 Add "registry.fedoraproject.org" to the "unqualified-search-registries" search list erntries.
 N.B Careful when adding registries only add registries that are trusted registries such as official images.
 
+(Hint!!!) `/etc/containers/registries.conf`
 
 
