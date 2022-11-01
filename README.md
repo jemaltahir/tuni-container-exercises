@@ -68,5 +68,11 @@ We can refer to the container using CONAINER ID or container name in our case my
 
 Enter into the one of the running container in your OS, for example conatiner myos, and run a shell command `ls` then finally `exit` command? Consult podman help.
 
+2.3 Now lets stop the running conatiner.
 
+Stop the running container myos? and confirm using a command that the myos is stopped? Observe that the state of the conatiner! What is the current state of the container? What does it mean?
+
+consult podman help
+
+2.4 Finally let's remove  
 
