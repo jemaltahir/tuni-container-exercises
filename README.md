@@ -97,4 +97,13 @@ Check the availability of the service using `curl` command ?
 
 Why do you think is this command `podman run -d -p 80:80 nginx` is not working ?
 
+Explore how to make it work ?
+
+Inspect the nginx container’s "NetworkSettings",  "Cmd", "CreateCommand", and  PortBindings.
+
+### 4 
+
+### 5 Build and tag custom container image. 
+
+
 
