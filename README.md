@@ -1,1 +1,23 @@
-# tuni-container-exercises
+# Tuni-container-exercises
+
+## Exercise A
+
+The purpose of this exercise is to introduce you to Redhat container tools, specifically Podman. We will install Podman, verify the Podman client is installed in our OS, and test it by running an image from a remote registry using Podman available (API  alls) commands.  
+1.0 Introducing Redhat container available tools.
+Take a look at the output of the following command in your terminal. There you will find the version of the container tools and how often they are updated, as well as the current version (latest version).
+
+```sh
+sudo yum module list | grep container-tools
+```
+1.1 Install latest Podman conatiner.
+
+```sh
+sudo yum module list | grep container-tools
+```
+
+1.2 Verify installation
+
+1.3 Running first container
+
+`docker run docker.io/dockerskoleni/hello-world`
+
