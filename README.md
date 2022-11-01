@@ -65,6 +65,7 @@ podman run -itd --name myos ubuntu bash
 List all containers running in the system (use podmans help)?
 
 We can refer to the container using CONAINER ID or container name in our case myos.
+
 Enter into the one of the running container in your OS, for example conatiner myos, and run a shell command `ls` ? Consult podman help.
 
 
