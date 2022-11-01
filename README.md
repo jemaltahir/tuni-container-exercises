@@ -56,3 +56,8 @@ This Podman pull command will cache images locally from remote registries. Let's
 podman images 
 ```
 Now let's start to run the container as a background process and later we will inspect it while it is running in the background. To start a container as a background process we will issue the following command: 
+
+```sh
+podman run -itd --name myos1 ubuntu bash
+```
+
