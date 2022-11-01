@@ -82,4 +82,19 @@ Restart, stop and delete the conatiner ?  And verify that the conatiner deleted 
 
 consult podman help.
 
-### 3 
+### 3 Container port forwarding and digging information 
+
+In this exercise we will work on container publishing ports to be accessible from the host OS and inspect the running container to get more information abot the container.
+
+3.1 Running an application conatiner and publish a port to host OS.
+
+```sh
+podman run -d -p 8080:80 nginx
+```
+Now the nginx application is up and running and ready to serve for incoming request.
+
+Check the availability of the service using `curl` command ?
+
+Why do you think is this command `podman run -d -p 80:80 nginx` is not working ?
+
+
