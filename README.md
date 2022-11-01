@@ -77,4 +77,6 @@ consult podman help.
 2.4 Finally let's remove  
 
 Before removing the container you can restart it or delete it permanently.
-restart, stop and delete the conatiner ?  consult podman help.
+
+Restart, stop and delete the conatiner ?  consult podman help.
+
