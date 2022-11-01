@@ -72,7 +72,7 @@ Enter into the one of the running container in your OS, for example conatiner my
 
 Stop the running container myos? and confirm using a command that the myos is stopped? Observe that the state of the conatiner! What is the current state of the container? What does it mean?
 
-consult podman help
+consult podman help.
 
 2.4 Finally let's remove  
 
