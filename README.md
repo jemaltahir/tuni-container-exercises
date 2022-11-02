@@ -84,13 +84,14 @@ consult podman help.
 
 ### 3 Container port forwarding and digging information 
 
-In this exercise we will work on container publishing ports to be accessible from the host OS and inspect the running container to get more information abot the container.
+In this exercise we will work on container publishing ports to be accessible from the host OS and inspect the running container to get more information about the container.
 
-3.1 Running an application conatiner and publish a port to host OS.
+3.1 Running an application container and publish a port to host OS.
 
 ```sh
 podman run -d -p 8080:80 nginx
 ```
+
 Now the nginx application is up and running and ready to serve for incoming request.
 
 Check the availability of the service using `curl` command ?
